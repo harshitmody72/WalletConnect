@@ -1,0 +1,37 @@
+.menu-nav {
+    margin-top: 15px;
+}
+
+.menu-nav ul li a {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    padding: 15px 20px;
+    color: #212529;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menu-nav ul li.active>a {
+    background: #0d6efd;
+    color: #fff;
+}
+
+.menu-nav ul li .collapse a.active {
+    background: #0d6efd;
+}
+
+.menu-nav ul li {
+    border-bottom: 1px solid #323741;
+    list-style: none;
+}
+
+.menu-nav ul li.active>a:after {
+    content: "";
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff;
+}
